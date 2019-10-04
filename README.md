@@ -6,7 +6,7 @@ contentProvider 很好的基础模块
     
  ### 简单的小demo 获取手机设备的联系人！
  
- ###第二个核心知识点->自定义contentProvider
+ ### 第二个核心知识点->自定义contentProvider
   step:
     1.新建 MyContentProvider 使其继承 ContentProvider 重写 onCreate() CRUD 以及 getType()方法
         这么做的好处是 任何一个应用程序 都可以使用 ContentProvider 来访问我们应用程序中的数据
